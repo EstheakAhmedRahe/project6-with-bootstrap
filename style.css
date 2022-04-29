@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img1{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    transition: 2s;
+}
+.img1:hover{
+    transform: rotate(360deg);
+}
+
+
+header{
+    background-image: url('https://th.bing.com/th/id/OIP.pFBgzdVbk0d7Ruf0s0n6iwHaEo?w=272&h=180&c=7&o=5&dpr=1.25&pid=1.7');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+.h01{
+    width: 78%;
+    font-family: 'Rampart One', 'cursive';
+}
+.margin{
+    margin-top: 100px;
+}
+
+.icon2{
+    font-size: 40px;
+    background-color: rgb(96, 34, 155);
+    color: rgb(248, 53, 4);
+}
+.xx{
+    margin:0 auto;
+    text-align: center;
+    width: 94%;
+    background-color: rgba(114, 84, 168, 0.5);
+    border:3px solid rgb(68, 68, 110);
+    box-shadow: 5px 5px 5px black;
+    transition:.5s;
+}
+.xx:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 8px 8px black;
+}
+.hr{
+    border-bottom: dotted;
+    width:140px;
+    font-size: 30px;
+}
+.icon4{
+    font-size: 45px;
+}
+.about1{
+    background-color: rgb(206, 206, 224);
+}
+.im3{
+    width:100%;
+    height: 100px;
+    text-align: center;
+}
+.crd1{
+    background-color: rgba(127, 174, 175,.3);
+    
+}
+.crd1:hover{
+    box-shadow: 4px 4px 4px black;
+}
+.im5{
+    text-align: center;
+    background-color: rgba(82, 109, 158,.3);
+}
+.im4{
+    width:130px;
+    height: 110px; 
+    transition: 1s;
+}
+.im4:hover{
+   transform: scale(1.3);
+}
+.im6{
+    width:100%;
+    height: 90px;
+}
+.contact1{
+    background-color: rgba(57, 34, 185,.1);
+}
+.cmt{
+    width: 80%;
+    margin: 0 auto;
+}
